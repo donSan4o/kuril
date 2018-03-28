@@ -1,0 +1,33 @@
+// Sass Variables
+// Colors
+$black: #000;
+$white: #fff;
+$blue: #00f;
+$gray: #333;
+$lightgray: #565656;
+
+// Body
+$base-font-size: 14px !default;
+$base-line-height: 1.4 !default;
+$base-text-color: $gray !default;
+$base-font-family: 'Work Sans', sans-serif !default;
+$base-background-color: $white !default;
+$base-min-width: 320px;
+
+// Headings
+$h1-font-size: 40px !default;
+$h2-font-size: 72px !default;
+$h3-font-size: 23px !default;
+$h4-font-size: 20px !default;
+$h5-font-size: 12px !default;
+
+$headings-line-height: 1.2 !default;
+
+$headings-font-family: inherit !default;
+$headings-font-weight: bold !default;
+$headings-color: inherit !default;
+
+// Links
+$base-link-color: $lightgray;
+$hover-link-color: $black;
+

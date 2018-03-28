@@ -1,0 +1,31 @@
+.swiper-slide {
+	position: relative;
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.description {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		transform: translateY(-50%);
+		text-align: center;
+		h2 {
+			font-size: 72px;
+			line-height: 74px;
+			font-weight: 400;
+			text-transform: uppercase; 
+			color: #fff;
+			@media (max-width: 768px) {
+				font-size: 34px;
+	    		line-height: 42px;		
+			}
+		}
+		span {
+			color: #fff;
+			text-transform: uppercase;
+		}
+	}
+}

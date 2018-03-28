@@ -1,0 +1,32 @@
+.fader {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 98;
+}
+.fader-white {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 98;
+	background: rgba(255,255,255,0.8); 
+}
+.close-popup {
+	display: block;
+	position: absolute;
+	top: 41px;
+	right: 50px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/close.svg);
+	@media(max-width: 768px) {
+	    top: 20px;
+	    right: 15px;
+	}
+}
